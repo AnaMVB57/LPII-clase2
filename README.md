@@ -1,6 +1,5 @@
 # LPII-clase2
-Primer repositorio hecho por mí yaaay
 
-______________________________________________________________
-Cambios realizados en clase
-Guayaba
+Cambiando el archivo readme por primera vez.
+
+Cambio en repositorio local.
