@@ -1,6 +1,3 @@
-
-
-
 body {
     display: flex;
     border: 2px solid red;
@@ -18,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 2rem;
 }
 
 .image-perfil {
@@ -31,5 +29,29 @@ body {
     width: 15rem;
     height: 15rem;
     overflow: hidden;
+}
+
+.contenedor-botones {
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    height: 5rem;
+    border: 2px solid green;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-botones a {
+    display: inline-block;
+    width: 5rem;
+    height: 80%;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.link img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
