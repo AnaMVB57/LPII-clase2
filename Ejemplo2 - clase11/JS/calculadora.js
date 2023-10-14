@@ -28,12 +28,19 @@ function mostrarResultado(){
 }
 
 function agregarOperacion(operacion){
+
+    console.log(operacion);
     if(operacion === '.' && !pantalla.textContent.includes(".")){
         pantalla.textContent += operacion;
-    }else{
-            valorPrevio = pantalla.textContent + operacion;
-            limpiar();
     }
+
+
+    if(operacion!=='.'){
+        valorPrevio = pantalla.textContent + operacion;
+        limpiar();
+    }
+            
+    
 }
 
 export {agregarNumero, limpiar, borrarElemento, mostrarResultado, agregarOperacion};

@@ -12,7 +12,7 @@ const botonesNumero = document.querySelectorAll("[numero]");
 
 const botonIgual = document.querySelector(".igual");
 
-const operadores = document.querySelector("[operador]");
+const operadores = document.querySelectorAll("[operador]");
 
 
 botonesNumero.forEach(
@@ -30,4 +30,4 @@ operadores.forEach(
     operador => operador.addEventListener('click', () => agregarOperacion(operador.textContent))
 );
 
-console.log(botonesNumero);
+console.log(operadores);
